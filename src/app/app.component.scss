@@ -1,0 +1,27 @@
+mat-sidenav-container{
+  margin: 0;
+  height: 92%;
+  width: 100%;
+}
+mat-toolbar{
+  color: var(--mat-sys-primary);
+  background: var(--mat-sys-primary-fixed);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+section{
+  width: 100%;
+}
+section button{
+  width: 100%;
+  background: var(--mat-sys-background);
+  border-color: var(--mat-sys-background);
+  border-radius: 1px;
+  border-bottom-color: var(--mat-sys-secondary);
+}
+mat-sidenav{
+  width: 20%;
+  border-radius: revert;
+}
+
